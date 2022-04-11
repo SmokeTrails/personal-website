@@ -1,0 +1,153 @@
+body {
+    background-color: #DEF2F1;
+    font-family: 'Cambria', 'Georgia', 'serif';
+}
+
+#navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+}
+
+#navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #3AAFA9;
+    overflow: hidden;
+} 
+
+#navbar ul li {
+    display: inline;
+}
+
+#navbar .notl1 {
+    float: right;
+    margin: auto;
+}
+
+#navbar #l1 {
+    float: left;
+    color: white;
+    padding: 14px 50px;
+    font-size: 32pt;
+    font-weight: bold;
+}
+
+#navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    height: 76px;
+    line-height: 76px;
+    padding: 0px 26px;
+    font-size: 20pt;
+}
+
+#navbar li a:hover {
+    color: #17252A;
+}
+
+#main-container {
+    margin-top: 76px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+#about {
+    background-color: #3AAFA9;
+    color: white;
+    width: 100vw;
+    padding-top: 20px;
+}
+
+#about p {
+    margin: 0;
+    margin-left: 50px;
+    margin-right: 20%;
+    line-height: 1.5;
+    padding-bottom: 30px;
+    font-size: 14pt;
+}
+
+#about p a {
+    color: white;
+}
+
+#about p a:hover {
+    color: #17252A;
+}
+
+#projects {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+}
+
+#projects-heading {
+    padding: 0;
+    margin-left: 50px;
+}
+
+#project1 {
+    margin-left: 50px;
+    width: 22%;
+}
+
+.project-background {
+    border-radius: 15px;
+    height: 250px;
+    background-color: #3AAFA9;
+}
+
+.project-content {
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: white;
+    margin-top: -20px;
+    padding: 20px 10px;
+    padding-top: 10px;
+}
+
+.project-content h2 {
+    margin: 0;
+    color: #17252A;
+}
+
+.project-content .project-tech {
+    color: grey;
+    font-size: 10pt;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.project-content .project-desc {
+    font-weight: lighter;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    line-height: 1.2;
+    font-size: 12pt;
+}
+
+.project-content button {
+    background-color: #3AAFA9;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 7px;
+    font-size: 13pt;
+    cursor: pointer;
+}
+
+.project-content button:hover {
+    transform: perspective(1px) scale(1.05);
+}
+
+#project2, #project3, #project4 {
+    width: 22%;
+    margin-left: 30px;
+}
